@@ -21,3 +21,8 @@ while a<100:
 
 s = '\nFirst line.\nSecond line.'
 print(s)
+print("""\
+Usage: thingy [OPTIONS]
+     -h                        Display this usage message
+     -H hostname               Hostname to connect to
+""")
