@@ -18,4 +18,6 @@ a,b=0,1
 while a<100:
     print(a,end=',')
     a,b = b,a+b
-    
+
+s = '\nFirst line.\nSecond line.'
+print(s)
